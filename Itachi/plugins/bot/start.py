@@ -6,8 +6,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from itachi import app
-from itachi.misc import _boot_
+from Itachi import app
+from Itachi.misc import _boot_
 from itachi.plugins.sudo.sudoers import sudoers_list
 from itachi.utils.database import (
     add_served_chat,
@@ -17,9 +17,9 @@ from itachi.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from itachi.utils.decorators.language import LanguageStart
-from itachi.utils.formatters import get_readable_time
-from itachi.utils.inline import help_pannel, private_panel, start_panel
+from Itachi.utils.decorators.language import LanguageStart
+from Itachi.utils.formatters import get_readable_time
+from Itachi.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
