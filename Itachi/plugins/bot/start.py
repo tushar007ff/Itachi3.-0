@@ -9,7 +9,7 @@ import config
 from itachi import app
 from itachi.misc import _boot_
 from itachi.plugins.sudo.sudoers import sudoers_list
-from Rudra.utils.database import (
+from itachi.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
