@@ -8,8 +8,8 @@ from youtubesearchpython.__future__ import VideosSearch
 import config
 from Itachi import app
 from Itachi.misc import _boot_
-from itachi.plugins.sudo.sudoers import sudoers_list
-from itachi.utils.database import (
+from Itachi.plugins.sudo.sudoers import sudoers_list
+from Itachi.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
