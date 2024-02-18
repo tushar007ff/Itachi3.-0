@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. .",
-        "value": "-1002005927519",
+        "value": "-1002126546106",
         "required": true
       }
     },
