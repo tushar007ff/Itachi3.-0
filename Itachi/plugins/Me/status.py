@@ -3,7 +3,7 @@ from Itachi import app
 
 
 # Command handler to get group status
-@app.on_message(filters.command("status") & filters.group)
+@app.on_message(filters.command("itachifhhd") & filters.group)
 def group_status(client, message):
     chat = message.chat  # Chat where the command was sent
     status_text = f"Group ID: {chat.id}\n" \
