@@ -4,7 +4,7 @@ from config import BOT_USERNAME
 from Itachi.utils.Itachi_ban import admin_filter
 from Itachi.mongo.filtersdb import *
 from Itachi.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from Itachi.utils.Hinadb import user_admin
+from Itachi.utils.medb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
